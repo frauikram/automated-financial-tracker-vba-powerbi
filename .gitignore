@@ -1,0 +1,33 @@
+# Ignore Pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore all Python scripts
+*.py
+
+# Ignore temporary Excel files
+~$*.xls*
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore hidden system files
+*.lnk
+*.lock
+*.log
+
+# Ignore Power BI temp/backup files
+*.tmp.pbix
+*.bak.pbix
+
+# Ignore Python/Power Query cache if any
+__pycache__/
+*.cache
+
+# Keep only main work files
+!*.xlsm
+!*.xlsx
+!*.csv
+!*.pbix
